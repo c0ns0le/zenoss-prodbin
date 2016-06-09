@@ -213,3 +213,4 @@ class BulkMetricLoadMixin(BulkLoadMixin):
         facade = Zuul.getFacade('device', self._object.dmd)
         facade.bulkLoadMetricData([self])
         return super(BulkMetricLoadMixin, self).getBulkLoadProperty(name)
+
